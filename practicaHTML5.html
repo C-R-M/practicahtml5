@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">  
+  <head>    
+    <title>PRACTICA 1 DE HTML5</title>    
+    <meta charset="UTF-8">
+    <meta name="description" content="Esta es la practica 1 de HTML5">    
+  </head>  
+  <body>    
+    <header>
+      <h1>P R A C T I C A  1   D E   H T M L  5</h1>      
+    </header>    
+    <nav>
+        <ul id=”button”>
+            <li><a href=”#”>Inicio</a></li>
+            <li><a href=”#”>Sobre nosotros</a></li>
+            <li><a href=”#”>Cursos</a></li>
+            <li><a href=”#”>Contacto</a></li>
+        </ul>
+    </nav>
+    <section>      
+      <article>
+        <h2>CURSOS QUE SE IMPARTEN</h2>
+        <p>Empieza hoy. ¿Qué quieres aprender?</p>
+        <div>
+            <video autoplay="" loop="" muted="" controls="">
+                <source src="https://thumbs.dreamstime.com/videothumb_large5498/54981742.mp4" type="video/mp4">
+                Tu navegador no soporta este video.
+        </video>         
+        </div>
+      </article>      
+    </section>
+    <aside>
+      <h3>CENTRO DE ESTUDIO</h3>
+      <a href="https://geekshubsacademy.com" img src="https://geekshubsacademy.com/images/logo.gif" alt="CENTRO DE ESTUDIO"></a>
+      <h3>Testimonios de alumnos</h3>
+      <img src = "https://geekshubsacademy.com/images/tddjava/teacher.png"></img>
+      <p>Jacinto Rodriguez</p>
+      <p>Me gusto mucho el curso aprendi muchas cosas, esta bien organizado y el centro invita a los alumnos a una comida final de curso.</p>
+    </aside>
+    <form>
+            <h1>FORMULARIO:</h1>
+            <p>LOS CAMPOS INDICADOS SON REQUERIDOS <strong><abbr title="required">*</abbr></strong>.</p>
+           
+            <section>
+              <h2>INFORMACION DE CONTACTO</h2>
+              
+              <fieldset>
+                <legend>INDIQUENOS SI ERES </legend>
+                <ul>
+                  <li>
+                    <label for="title_1">
+                      <input type="radio" id="title_1" name="title" value="S." />
+                      <em>SEÑOR</em>
+                    </label>
+                  </li>
+                  <li>
+                    <label for="title_2">
+                      <input type="radio" id="title_2" name="title" value="SA." />
+                      <em>SEÑORA</em>
+                    </label>
+                  </li>
+                  <li>
+                    <label for="title_3">
+                        <input type="radio" id="title_3" name="title" value="STA." />
+                        <em>SEÑORITA</em>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+              
+              <p>
+                <label for="nombre">
+                  <span>NOMBRE: </span>
+                  <input type="text" id="inombre" name="nombre" required />
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+              </p>
+              
+               <p>
+                <label for="mail">
+                  <span>E-mail: </span>
+                  <input type="email" id="imail" name="mail" required />
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+              </p>
+
+              <label for="comentario">
+                <span>Comentarios:</span>
+                <textarea id="icomentario" name="comentario" placeholder="Escribe un comentario!"></textarea>
+              </label>
+              <br>
+              <label for="LEEREMAILS">
+                    <span>¿CUANDO LEES LOS EMAILS? </span>
+              <input type="text" name="example" list="exampleList">
+                <datalist id="exampleList">
+                    <option value="MAÑANA">
+                    <option value="TARDE">
+                    <option value="NOCHE">
+                </datalist>
+                </label>
+            </section>
+            <section>
+              <p>
+                <button>ENVIAR</button>
+              </p>
+            </section>
+          </form>
+    <footer>
+      <h4>Avisos legales</h4>
+      <p>Política de cookies: esto es una dictadura asi que te toca guardar mi cookies</p>
+      <h4>Redes sociales</h4>
+      <a href="http://facebook.com/">Facebook</a>
+    </footer>
+  </body>  
+</html>
